@@ -1,0 +1,20 @@
+body {
+    background-color: #D5E1EF;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.box_caixa {
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: white;
+    width: 316px;
+    height: 500px;
+}
