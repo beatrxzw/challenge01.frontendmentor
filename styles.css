@@ -1,14 +1,27 @@
-body {
-    background-color: #D5E1EF;
+:root {
+    --cinza: hsl(220, 15%, 55%);
+    --branco: hsl(0, 0%, 100%);
+    --azul-escuro: hsl(218, 44%, 22%);
+    --background: hsl(212, 45%, 89%);
+    --azul-oceano: #2B7DFA;
+    --font: 'Outfit';
 
 }
 
-.content{
+
+body {
+    background-color: var(--background);
+    overflow: hidden;
+
+}
+
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+
 
 
 .box_caixa {
@@ -17,4 +30,50 @@ body {
     background-color: white;
     width: 316px;
     height: 500px;
+}
+
+.box_caixa_azul {
+    margin: 18px 14px 0;
+    width: 289px;
+    height: 287px;
+    background: #2B7DFA;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qrcode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 289px;
+    height: 287px;
+    border-radius: 15px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font);
+    text-align: center;
+}
+
+.title {
+    color: var(--azul-escuro);
+    font-size: 22px;
+    font-weight: 700;
+    width: 250px;
+    height: 56px;
+    margin-top: 26px;
+}
+
+.text {
+    color: var(--cinza);
+    font-size: 16px;
+    font-weight: 400;
+    width: 256px;
+    height: 60px;
+    margin-top: 1px;
 }
