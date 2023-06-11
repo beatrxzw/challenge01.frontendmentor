@@ -77,3 +77,12 @@ body {
     height: 60px;
     margin-top: 1px;
 }
+
+@media(max-width: 1200px){
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+}
